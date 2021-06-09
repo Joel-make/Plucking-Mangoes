@@ -20,9 +20,9 @@ var score=0;
 var chain1;
 
 function preload(){
-	boy=loadImage("images/boy.png");
-  bg=loadImage("images/bg.jpg");
-  giffy=loadImage("images/mangoes.gif");
+	boy=loadImage("boy.png");
+  bg=loadImage("bg.jpg");
+  giffy=loadImage("mangoes.gif");
   
   }
 
@@ -199,51 +199,51 @@ if(gameState===2)
 {
    text("Tired, press LEFT ARROW key to end",50,150);
 }
-  if(mango1.body.position.y>300 && mango1.body.position.y<313 )
+  if(mango1.body.position.y>300 && mango1.body.position.y<312 )
   {
      score= score+1;
   }
-  if(mango2.body.position.y>300 && mango2.body.position.y<313 )
+  if(mango2.body.position.y>300 && mango2.body.position.y<312 )
   {
      score= score+1;
   }
-  if(mango3.body.position.y>300 && mango3.body.position.y<313 )
+  if(mango3.body.position.y>300 && mango3.body.position.y<312 )
   {
      score= score+1;
   }
-  if(mango4.body.position.y>300 && mango4.body.position.y<313 )
+  if(mango4.body.position.y>300 && mango4.body.position.y<312 )
   {
      score= score+1;
   }
-  if(mango5.body.position.y>300 && mango5.body.position.y<313 )
+  if(mango5.body.position.y>300 && mango5.body.position.y<312 )
   {
      score= score+1;
   }
-  if(mango6.body.position.y>300 && mango6.body.position.y<313 )
+  if(mango6.body.position.y>300 && mango6.body.position.y<312 )
   {
      score= score+1;
   }
-  if(mango7.body.position.y>300 && mango7.body.position.y<313 )
+  if(mango7.body.position.y>300 && mango7.body.position.y<312 )
   {
      score= score+1;
   }
-  if(mango8.body.position.y>300 && mango8.body.position.y<313 )
+  if(mango8.body.position.y>300 && mango8.body.position.y<312 )
   {
      score= score+1;
   }
-  if(mango9.body.position.y>300 && mango9.body.position.y<313 )
+  if(mango9.body.position.y>300 && mango9.body.position.y<312 )
   {
      score= score+1;
   }
-  if(mango10.body.position.y>300 && mango10.body.position.y<313 )
+  if(mango10.body.position.y>300 && mango10.body.position.y<312 )
   {
      score= score+1;
   }
-  if(mango11.body.position.y>300 && mango11.body.position.y<313 )
+  if(mango11.body.position.y>300 && mango11.body.position.y<312 )
   {
      score= score+1;
   }
-  if(mango12.body.position.y>300 && mango12.body.position.y<313 )
+  if(mango12.body.position.y>300 && mango12.body.position.y<312 )
   {
      score= score+1;
   }
