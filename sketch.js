@@ -20,9 +20,9 @@ var score=0;
 var chain1;
 
 function preload(){
-	boy=loadImage("images/boy.png");
-  bg=loadImage("images/bg.jpg");
-  giffy=loadImage("images/mangoes.gif");
+	boy=loadImage("boy.png");
+  bg=loadImage("bg.jpg");
+  giffy=loadImage("mangoes.gif");
   
   }
 
