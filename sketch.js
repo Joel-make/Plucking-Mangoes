@@ -318,7 +318,7 @@ function keyPressed()
  if(keyCode=== 32)
  {
   Matter.Body.setPosition(stoneObj.body,{x:230,y:410}) 
-  stoneObj.attach({x:230,y:410});
+  chain1.attach(stoneObj.body);
   gameState=1;
  }
 }
